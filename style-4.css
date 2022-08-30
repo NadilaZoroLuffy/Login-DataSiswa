@@ -1,0 +1,60 @@
+body{
+    background-color: chocolate;
+}
+.kotak_login{
+    width: 550px;
+    height: 540px;
+    background-color: wheat;
+    margin: 90px auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.kotak_login h2 {
+    font-size: 28px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(86, 98, 99);
+    font-variant: small-caps;
+    letter-spacing: 5px;
+    line-height: 0px;
+}
+.kotak_login h3 {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-variant: small-caps;
+    line-height: 0px;
+}
+form{
+    margin-top: 50px;
+}
+.form-control{
+    width: 100%;
+    padding: 12px 8px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: 1px solid #c4c4c4;
+    box-sizing: border-box;
+}
+.btn-login{
+    width: 100%;
+    padding: 12px 8px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-color: green;
+    color: white;
+
+}
+.btn-login:hover {
+    width: 100%;
+    padding: 12px 8px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+
+}
